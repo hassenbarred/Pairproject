@@ -1,0 +1,78 @@
+body {
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive;
+    color: #ff6f61; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;  
+    margin-bottom: 20px; 
+    animation: bounce 1s infinite; 
+  }
+  
+  /* Optional: Add a subtle box shadow for a lifted effect */
+  h1 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 0 0 calc(25% - 50px);
+    /* Adjust the width of each column as needed */
+    margin: 10px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 10px rgb(218, 190, 7);
+
+}
+
+.card h3 {
+    margin: 10px;
+}
+
+.card p {
+    margin: 5px 10px;
+}
+
+btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+/* body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/021/565/002/large_2x/asian-teen-using-computer-tablet-with-learning-with-doodle-education-and-online-e-learning-on-background-notification-social-multimedia-icons-internet-connection-application-digital-network-photo.jpg');
+  } */
